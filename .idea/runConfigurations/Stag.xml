@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Stag" type="FlutterRunConfigurationType" factoryName="Flutter">
+    <option name="buildFlavor" value="stag" />
+    <option name="filePath" value="$PROJECT_DIR$/lib/main-stag.dart" />
+    <method v="2" />
+  </configuration>
+</component>
