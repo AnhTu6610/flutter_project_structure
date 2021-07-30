@@ -291,6 +291,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -368,6 +369,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58A16C7D26B3B41C008266DF /* Dev.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "App Dev";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -446,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58A16C7E26B3B441008266DF /* Stag.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "App Stag";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -524,6 +527,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58A16C7F26B3B45D008266DF /* Pro.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "App Prod";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -597,6 +601,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58A16C7D26B3B41C008266DF /* Dev.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "App Dev";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -671,6 +676,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58A16C7D26B3B41C008266DF /* Dev.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "App Dev";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -743,6 +749,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58A16C7E26B3B441008266DF /* Stag.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "App Stag";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -815,6 +822,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58A16C7F26B3B45D008266DF /* Pro.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "App Prod";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -889,6 +897,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58A16C7E26B3B441008266DF /* Stag.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "App Stag";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -963,6 +972,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58A16C7F26B3B45D008266DF /* Pro.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = App;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -1091,6 +1101,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9740EEB21CF90195004384FC /* Debug.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
@@ -1113,6 +1124,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7AFA3C8E1D35360C0083082E /* Release.xcconfig */;
 			buildSettings = {
+				APP_DISPLAY_NAME = "";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
