@@ -1,8 +1,6 @@
 name: flutter_project_structure
 description: A new Flutter project.
 
-# The following line prevents the package from being accidentally published to
-# pub.dev using `pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 
 # The following defines the version and build number for your application.
@@ -19,35 +17,73 @@ version: 1.0.0+1
 
 environment:
   sdk: ">=2.12.0 <3.0.0"
+  
+androidX: true
 
 dependencies:
   flutter:
     sdk: flutter
+  flutter_localizations:
+    sdk: flutter 
 
-
-  # The following adds the Cupertino Icons font to your application.
-  # Use with the CupertinoIcons class for iOS style icons.
-  cupertino_icons: ^1.0.2
+  cupertino_icons: any
+  logger: any
+  flutter_cache_manager: any
+  cached_network_image: any
+  flutter_svg: any
+  permission_handler: any
+  url_launcher: any
+  another_flushbar: any
+  #- local storage
+  hive: any
+  hive_flutter: any
+  shared_preferences: any
+  sqflite: any
+  #- state management
+  provider: any
+  rxdart: any
+  #- network
+  # http: any
+  retrofit: any
+  dio: any
+  #- code generates
+  json_annotation: any
+  #- firebase
+  firebase_core: any
+  firebase_messaging: any
+  flutter_local_notifications: any
+  firebase_auth: any
+  google_sign_in: any
+  flutter_facebook_auth: any
+  sign_in_with_apple: any
+  # firebase_database: any
+  cloud_firestore: any
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
+  json_serializable: any
+  retrofit_generator: any
+  build_runner: any
+  hive_generator: any
+  flutter_launcher_icons: any
+  # flutter pub run flutter_launcher_icons:main
+  # flutter packages pub run build_runner build
+  # flutter packages pub run build_runner build --delete-conflicting-outputs
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/images/logo.jpg"
 
-# For information on the generic Dart part of this file, see the
-# following page: https://dart.dev/tools/pub/pubspec
 
-# The following section is specific to Flutter.
 flutter:
-
-  # The following line ensures that the Material Icons font is
-  # included with your application, so that you can use the icons in
-  # the material Icons class.
   uses-material-design: true
 
-  # To add assets to your application, add an assets section, like this:
-  # assets:
-  #   - images/a_dot_burr.jpeg
-  #   - images/a_dot_ham.jpeg
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/icons/auth/
+    - assets/language/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware.
