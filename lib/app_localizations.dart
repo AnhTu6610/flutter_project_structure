@@ -23,7 +23,7 @@ class AppLocalizations {
   dynamic _localizedStrings;
 
   Future<bool> load() async {
-    Logger().d(locale.languageCode, "Language");
+    print("|-->Language: ${locale.languageCode}");
     String val = await rootBundle.loadString('assets/language/${locale.languageCode}.yaml', cache: true);
     _localizedStrings = loadYaml(val);
 
